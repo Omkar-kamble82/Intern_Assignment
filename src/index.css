@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loginbutton {
+    background: linear-gradient(98.44deg, #F54874 52.42%, #EC008C 107.37%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+}
+
+.nopay {
+    background: linear-gradient(98.44deg, #F54874 52.42%, #EC008C 107.37%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    mix-blend-mode: luminosity;
+}
+
+.center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.or{
+    padding: 10px;
+    color: #555252;
+    background: #F7F7F7;
+    z-index:9;
+}
+
+.line{
+    height: 2px;
+    background: linear-gradient(180deg, #CA4365 4.18%, rgba(196, 196, 196, 0) 77.28%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.search {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.seatbutton {
+    background: linear-gradient(98.44deg, #F5BA48 52.42%, #EC7609 104.8%, #EC008C 107.37%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+}

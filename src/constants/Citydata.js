@@ -1,0 +1,37 @@
+export const citydata = [
+    {
+        id:1,
+        name:"Raipur",
+        date:"10/11/2023"
+    },
+    {
+        id:2,
+        name:"Haryana",
+        date:"09/12/2023"
+    },
+    {
+        id:3,
+        name:"Amritsar",
+        date:"02/01/2024"
+    },
+    {
+        id:4,
+        name:"Nagpur",
+        date:"18/11/2024"
+    },
+    {
+        id:5,
+        name:"Pune",
+        date:"22/11/2024"
+    },
+    {
+        id:6,
+        name:"Nashik",
+        date:"01/15/2024"
+    },
+    {
+        id:7,
+        name:"Goa",
+        date:"05/05/2024"
+    },
+]

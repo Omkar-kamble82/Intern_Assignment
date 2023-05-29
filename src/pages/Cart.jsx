@@ -6,6 +6,7 @@ const Cart = () => {
 
     let storage = JSON.parse(localStorage.getItem("CityState"))
 
+
     const navigate = useNavigate()
 
     const [empty, setEmpty] = useState(false)
@@ -26,7 +27,7 @@ const Cart = () => {
     }
 
     useEffect(() => {
-        if(!storage.city && !(storage.h1seat || storage.h2seat || storage.h3seat)) {
+        if(!storage.city || !(storage.h1seat || storage.h2seat || storage.h3seat)) {
             setEmpty(true)
             return
         } else {
